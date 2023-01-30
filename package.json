@@ -1,0 +1,23 @@
+{
+  "name": "pizzabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src",
+  "scripts": {
+    "watch": "nodemon ./src/app.js localhost 3000",
+    "start": "node ."
+  },
+  "author": "2hands10fingers",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.12.2",
+    "@slack/rtm-api": "^6.0.0",
+    "@slack/web-api": "^6.8.0",
+    "dotenv": "^16.0.3",
+    "esm": "^3.2.25",
+    "express": "^4.18.2"
+  }
+}
